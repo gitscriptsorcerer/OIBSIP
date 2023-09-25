@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  nav{
+    background: #dcd3c9;
+    height: 80px;
+    /* width: 100%; */
+    color: #5c4c43;
+  }
+  label.logo{
+    color: #392f29;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #8f7c77;
+    transition: .5s;
+  }
+  
+  .section_container{
+    /* width: 100%; */
+    height: 90vh;
+    background-image: url('land\ wall1.png');
+    background-size: cover;
+  }
+  
+  .head1{
+    font-size: 40px;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    }
+  .p1{
+    font-size: 26px;
+    width: 52%;
+    height: 14%;
+    position: relative;
+    top: 30%;
+    left: 10%;
+  }
+  button{
+    
+    height: 36px;
+    width: 7.5%;
+    position: relative;
+    top: 38%;
+    left: 10%;
+  }
+
+  .section_blog{
+    /* width: 100%; */
+    height: 90vh;
+    background-image: url('land\ wall2.png');
+    background-size: cover;
+  }
+  .head2{
+    font-size: 40px;
+    position: relative;
+    top: 25%;
+    text-align: center;
+  }
+  .p2{
+    font-size: 22px;
+    width: 50.5%;
+    height: 20%;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    left: 25%;
+  }
+  .section_community{
+    /* width: 100%; */
+    height: 90vh;
+    background-color: #5c4c43;
+    background-image: url('land\ wall3.png');
+    background-size: cover;
+  }
+  .head3{
+    font-size: 40px;
+    position: relative;
+    top: 10%;
+    text-align: center;
+  }
+  .h21{
+    position: relative;
+    top: 60%;
+    left: 15%;
+  }
+  .h22{
+    position: relative;
+    top: 56%;
+    left: 44%;
+  }
+  .h23{
+    position: relative;
+    top: 52%;
+    left: 77%;
+  }
+  .paras{
+    display: flex;
+    height: 100px;
+    font-size: 20px;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 25%;
+  }
+  footer{
+    height: 200px;
+    /* width: 100%; */
+    background: #d5c9bd;
+  }
+  .fheading{
+    text-align: center;
+    top: 18%;
+    position: relative;
+  }
+  .fpara{
+    text-align: center;
+    top: 30%;
+    position: relative;
+    font-style: italic;
+    font-size: 20px;
+  }
